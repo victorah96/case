@@ -1,0 +1,27 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #256ca6;
+}
+
+label {
+  color:white;
+  font-size: large;
+  margin-bottom: 0.25em;
+  font-weight: lighter;
+}
+
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+ /*Tatt utgangspunkt i følgende css fil https://github.com/MyNameIsURL/react-form-validation-tutorial/blob/master/src/App.css
+siden det var enkelt set up som gjør inputs, labels og teksten litt finere, men veldig basic design. Ville typisk samarbeidet mer med UX-designer
+for å få lage et mer customized design i et reelt prosjekt */
